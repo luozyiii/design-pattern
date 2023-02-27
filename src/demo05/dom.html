@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM事件就是最常用的观察者模式</title>
+</head>
+<body>
+  <buttonid="btn1">btn</button>
+  <script>
+    const $btn1=$('#btn1')
+    $btn1.click(function(){
+      console.log(1)
+    })
+    $btn1.click(function(){
+      console.log(2)
+    })
+    $btn1.click(function(){
+      console.log(3)
+    })
+  </script>
+</body>
+</html>

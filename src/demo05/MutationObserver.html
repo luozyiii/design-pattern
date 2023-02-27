@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MutationObserver</title>
+  </head>
+  <body>
+    <div id="container">
+      <p>A</p>
+      <p>B</p>
+    </div>
+  </body>
+  <script>
+    function callback(records: MutationRecord[], observer: MutationObserver) {
+      for (let record of records) {
+        console.log('record: ', record);
+      }
+    }
+    const observer = new MutationObserver(callback);
+
+    const containerElem = document.getElementById('container');
+    const options = {
+      attributes: true, // 监听属性变化
+      attributeOldValue: true, // 变化之后，记录旧属性的值
+      childList: true, // 监听子节点变化（新增删除）
+      characterData: true, // 监听节点内容或文本变化
+      characterDataOldValue: true, // 变化之后，记录旧内容
+      subtree: true, // 递归监听所有下级节点
+    };
+
+    // 开始监听
+    observer.observe(containerElem, options);
+    // 停止监听
+    observer.disconnect();
+  </script>
+</html>
