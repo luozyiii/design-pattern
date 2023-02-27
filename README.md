@@ -9,3 +9,5 @@
 ##### [【03】前端常用的设计模式之工厂模式](https://github.com/luozyiii/design-pattern/blob/main/%E3%80%9003%E3%80%91%E5%89%8D%E7%AB%AF%E5%B8%B8%E7%94%A8%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B9%8B%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.md)
 
 ##### [【04】前端常用的设计模式之单例模式](https://github.com/luozyiii/design-pattern/blob/main/%E3%80%9004%E3%80%91%E5%89%8D%E7%AB%AF%E5%B8%B8%E7%94%A8%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B9%8B%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
+
+##### [【05】前端常用的设计模式之观察者模式](https://github.com/luozyiii/design-pattern/blob/main/%E3%80%9005%E3%80%91%E5%89%8D%E7%AB%AF%E5%B8%B8%E7%94%A8%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B9%8B%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F.md)
